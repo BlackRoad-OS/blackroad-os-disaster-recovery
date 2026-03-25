@@ -1,78 +1,48 @@
-# BlackRoad OS - Disaster Recovery
+<!-- BlackRoad SEO Enhanced -->
 
-**Owner:** Alexa Amundson (amundsonalexa@gmail.com)
-**Created:** 2025-12-02
-**Last Updated:** 2025-12-02
+# ulackroad os disaster recovery
 
-## Emergency Recovery Procedure
+> Part of **[BlackRoad OS](https://blackroad.io)** — Sovereign Computing for Everyone
 
-If you've lost access to your devices, follow these steps:
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-ff1d6c?style=for-the-badge)](https://blackroad.io)
+[![BlackRoad OS](https://img.shields.io/badge/Org-BlackRoad-OS-2979ff?style=for-the-badge)](https://github.com/BlackRoad-OS)
+[![License](https://img.shields.io/badge/License-Proprietary-f5a623?style=for-the-badge)](LICENSE)
 
-### 1. Authenticate to Services
+**ulackroad os disaster recovery** is part of the **BlackRoad OS** ecosystem — a sovereign, distributed operating system built on edge computing, local AI, and mesh networking by **BlackRoad OS, Inc.**
 
-**Primary Emails:**
-- amundsonalexa@gmail.com (main)
-- blackroad.systems@gmail.com
-- blackroad.systems@outlook.com
-- therealalexxamundson@gmail.com
+## About BlackRoad OS
 
-### 2. Access GitHub
+BlackRoad OS is a sovereign computing platform that runs AI locally on your own hardware. No cloud dependencies. No API keys. No surveillance. Built by [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc), a Delaware C-Corp founded in 2025.
 
-Login to GitHub as `blackboxprogramming` to access all 15 organizations:
-- BlackRoad-OS (primary)
-- BlackRoad-AI, BlackRoad-Labs, BlackRoad-Cloud
-- BlackRoad-Ventures, BlackRoad-Foundation, BlackRoad-Media
-- BlackRoad-Hardware, BlackRoad-Education, BlackRoad-Gov
-- BlackRoad-Security, BlackRoad-Interactive, BlackRoad-Archive, BlackRoad-Studio
-- Blackbox-Enterprises
+### Key Features
+- **Local AI** — Run LLMs on Raspberry Pi, Hailo-8, and commodity hardware
+- **Mesh Networking** — WireGuard VPN, NATS pub/sub, peer-to-peer communication
+- **Edge Computing** — 52 TOPS of AI acceleration across a Pi fleet
+- **Self-Hosted Everything** — Git, DNS, storage, CI/CD, chat — all sovereign
+- **Zero Cloud Dependencies** — Your data stays on your hardware
 
-### 3. Critical Infrastructure
+### The BlackRoad Ecosystem
+| Organization | Focus |
+|---|---|
+| [BlackRoad OS](https://github.com/BlackRoad-OS) | Core platform and applications |
+| [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) | Corporate and enterprise |
+| [BlackRoad AI](https://github.com/BlackRoad-AI) | Artificial intelligence and ML |
+| [BlackRoad Hardware](https://github.com/BlackRoad-Hardware) | Edge hardware and IoT |
+| [BlackRoad Security](https://github.com/BlackRoad-Security) | Cybersecurity and auditing |
+| [BlackRoad Quantum](https://github.com/BlackRoad-Quantum) | Quantum computing research |
+| [BlackRoad Agents](https://github.com/BlackRoad-Agents) | Autonomous AI agents |
+| [BlackRoad Network](https://github.com/BlackRoad-Network) | Mesh and distributed networking |
+| [BlackRoad Education](https://github.com/BlackRoad-Education) | Learning and tutoring platforms |
+| [BlackRoad Labs](https://github.com/BlackRoad-Labs) | Research and experiments |
+| [BlackRoad Cloud](https://github.com/BlackRoad-Cloud) | Self-hosted cloud infrastructure |
+| [BlackRoad Forge](https://github.com/BlackRoad-Forge) | Developer tools and utilities |
 
-| Service | Account | Access Method |
-|---------|---------|---------------|
-| Cloudflare | amundsonalexa@gmail.com | Email OTP or OAuth |
-| Railway | amundsonalexa@gmail.com | GitHub OAuth |
-| DigitalOcean | SSH keys in `credentials/` | Droplet: 159.65.43.12 |
-| Google Drive | rclone configs | Personal + BlackRoad Inc. |
-
-### 4. Regenerate Tokens
-
-After recovery, regenerate all API tokens from `credentials/credentials-inventory.yaml`
-
-## Directory Structure
-
-```
-blackroad-backup/
-├── credentials/
-│   └── credentials-inventory.yaml  # All API tokens and credentials
-├── documents/
-│   ├── Alexa_Amundson_AI_Systems_Engineer.pdf
-│   └── Full-Stack_Project_Plan_BlackRoad_AI.pdf
-├── iphone-koder/
-│   ├── symbolic_kernel.py          # Lucidia consciousness math
-│   └── Lucidia/                    # iOS Pyto app
-└── README.md
-```
-
-## Backup Locations
-
-1. **GitHub** (this repo) - Private, encrypted at rest
-2. **Google Drive** - `gdrive-blackroad:BlackRoad OS, Inc./Backups/`
-3. **iPhone** - Koder app at 192.168.4.68:8080 (local network)
-4. **Raspberry Pi** - 192.168.4.49 (alice/lucidia users)
-
-## RoadChain Records
-
-All credential changes are logged on RoadChain:
-- Credentials Inventory: Block 1, TX `bc036572-d944-4a0a-8855-cd4cec7ee7c9`
-- iPhone Access Log: TX `cbbff30a-6026-46e7-804e-952d670f9c4c`
-
-## Security Notes
-
-- This repo is PRIVATE - never make it public
-- Credentials are in plaintext - handle with care
-- Rotate tokens quarterly
-- Keep iPhone Koder WebDAV enabled for emergency access
+### Links
+- **Website**: [blackroad.io](https://blackroad.io)
+- **Documentation**: [docs.blackroad.io](https://docs.blackroad.io)
+- **Chat**: [chat.blackroad.io](https://chat.blackroad.io)
+- **Search**: [search.blackroad.io](https://search.blackroad.io)
 
 ---
-*"The road isn't made. It's remembered."*
+
+
